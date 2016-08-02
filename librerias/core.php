@@ -3,7 +3,7 @@
 
 define('LIBRERIAS', RUTA_BASE . 'librerias/');
 define('APP', RUTA_BASE . 'app/');
-define('APP_MODELO', APP . 'model/')
+define('APP_MODELO', APP . 'model/');
 
 #configuración de conexion de la DB.
 include_once LIBRERIAS . 'conexion/accesos.php';
